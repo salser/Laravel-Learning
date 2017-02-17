@@ -1,0 +1,65 @@
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css");
+
+body {
+    margin-top: 60px;
+}
+form {
+    margin-bottom: 0;
+}
+
+strong{
+    line-height: 180%;
+}
+
+.subtitle{
+    font-size: 80%;
+    border-top:1px solid #cecece;
+    padding: 10px;
+    text-align: right;
+}
+
+.vleft {
+    float: left;
+    padding: 10px;
+}
+
+.vright {
+    display: block;
+}
+
+.logo {
+    color: #c7254e;
+    font-size: 140%;
+}
+
+.navbar-custom {
+    background-color:#ccc;
+    color:#c7254e;
+    border-radius:0;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color:#c7254e;
+}
+.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+    color: #c7254e;
+    background-color:transparent;
+}
+.navbar-custom .navbar-brand {
+    color:#c7254e;
+}
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: #f5f5f5;
+    padding: 15px;
+    border-top: 1px solid #ccc;
+}
+
+.footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
